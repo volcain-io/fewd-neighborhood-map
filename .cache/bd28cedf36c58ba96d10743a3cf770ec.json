@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"_css_loader"}],"generated":{"css":"body {\n    height: 100%;\n}\n#map {\n    height: 100%;\n}\n\n.scrollable {\n    height: 800px;\n    overflow: auto;\n}\n","js":"\n        var reloadCSS = require('_css_loader');\n        module.hot.dispose(reloadCSS);\n        module.hot.accept(reloadCSS);\n      "},"hash":"8cc5ada4d69079dcba3155b4ea78b799"}

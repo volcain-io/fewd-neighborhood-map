@@ -2,23 +2,31 @@
     "name": "fewd-neighborhood-map",
     "version": "1.0.0",
     "description": "Single Page Application featuring a map of a neighborhood I'd like to visit.",
-    "main": "index.js",
+    "main": "dist/app.js",
     "scripts": {
+        "dev": "",
+        "build": "",
+        "start": "parcel ./src/index.html",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Volkan Erdogan",
     "license": "MIT",
     "devDependencies": {
-        "eslint": "^4.13.1",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-preset-env": "^1.7.0",
+        "eslint": "^4.19.1",
         "eslint-config-airbnb-base": "^12.1.0",
-        "eslint-plugin-import": "^2.8.0",
-        "eslint-plugin-prettier": "^2.3.1",
-        "gulp": "^3.9.1",
-        "knockout": "^3.4.2",
-        "prettier": "^1.9.2"
+        "eslint-plugin-import": "^2.13.0",
+        "eslint-plugin-prettier": "^2.6.2",
+        "parcel-bundler": "^1.9.7",
+        "prettier": "^1.14.0"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/volcain-io/fewd-neighborhood-map.git"
+    },
+    "dependencies": {
+        "knockout": "^3.4.2"
     }
 }
